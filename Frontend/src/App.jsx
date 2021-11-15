@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 //router dom
-import { Route, Routes, Redirect } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 
 // Shared Components
 import { Footer } from "./components/shared/footer/Footer";
@@ -23,7 +23,7 @@ function App() {
       <NavbarMain />
       <Routes >
         {/* pages */}
-          <Route path="/" exact element={<Home />} />
+          <Route path="/"  element={<Home />} />
 
           <Route path="/aboutUs" element={<AboutUs />} />
 

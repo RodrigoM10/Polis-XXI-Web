@@ -1,0 +1,7 @@
+.showMore-btn{
+    cursor: pointer;
+    color: blueviolet;
+}
+.showMore-btn:hover {
+    color: rgb(96, 191, 250);
+}
