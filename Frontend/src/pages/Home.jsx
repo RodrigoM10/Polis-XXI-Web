@@ -11,15 +11,15 @@ function Home() {
 let cardsInfo = [
     {
         id: 1,
-        title: 'Jovenes',
+        title: 'JÓVENES',
         icon: <FaPeopleCarry/>,
         link: '/youngsters',
         background: 'polis-color-lightblue',
-        description:'Unite a nuestro grupo de jovenes polis xxi',
+       
     },
     {
         id: 2,
-        title: 'Fortalecimiento Institucional',
+        title: 'FORTALECIMIENTO INSTITUCIONAL',
         icon: <FaUserGraduate/>,
         link: '/institutions',
         background: 'polis-color-violet',
@@ -27,7 +27,7 @@ let cardsInfo = [
     },
     {
         id: 3,
-        title: 'Ambiente',
+        title: 'AMBIENTE',
         icon: <FaEnvira/>,
         link: '/environment',
         background:'polis-color-lightblue',
