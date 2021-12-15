@@ -15,7 +15,8 @@ let cardsInfo = [
         icon: <FaPeopleCarry/>,
         link: '/youngsters',
         background: 'polis-color-lightblue',
-       
+        width:'medium',
+        text:'Conocé nuestra historia, webinars, eventos y agenda.'
     },
     {
         id: 2,
@@ -24,6 +25,8 @@ let cardsInfo = [
         link: '/institutions',
         background: 'polis-color-violet',
         description:'Conoce nuestra formacion institucional y academica',
+        width:'small',
+        text:'Trasparencia y rendición de cuentas, observatorio legislativo y vial.'
     },
     {
         id: 3,
@@ -32,6 +35,8 @@ let cardsInfo = [
         link: '/environment',
         background:'polis-color-lightblue',
         description:'Nuestro entorno laboral',
+        width:'medium',
+        text:'Sumate a los proyectos, capacitaciones y aprovechá los recursos.'
     },
 ]
 console.log(cardsInfo)

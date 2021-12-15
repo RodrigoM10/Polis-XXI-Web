@@ -1,40 +1,91 @@
-.polis-color-lightblue {
-    background-color: rgba(96, 191, 250, 0.801);
-    border: 4px solid rgba(96, 191, 250, 0.801);;
-    box-shadow: 2px 2px 6px rgba(53,53,53,0.869);
-}
-.polis-color-lightblue .card-info-icon:hover{
-    color: rgba(155, 125, 214, 0.87) !important;
-}
-.polis-color-violet {
-    background-color: rgba(155, 125, 214, 0.87);
-    border: 4px solid rgba(155, 125, 214, 0.87);
-    box-shadow: 2px 2px 6px rgba(53,53,53,0.869);
-}
-.polis-color-violet .card-info-icon:hover {
-  color: rgba(96, 191, 250) !important;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Montserrat:700,400);
+
 .card-info-style {
     cursor: pointer;
     width: 23rem;
     height: 28rem;
     transition: 0.4s;
-    border-radius: 5%;
-    
 }
 .card-info-style:hover {
     transform: scale(105%);
 }
-.card-info-icon{
+.polis-color-lightblue {
+    /* background-color: rgba(96, 191, 250, 0.801); */
+    background-color: rgb(241, 255, 254);
+    border: 4px solid rgba(96, 191, 250, 0.801);
+    box-shadow: 2px 2px 6px rgba(53, 53, 53, 0.869);
+    color: rgba(96, 191, 250, 0.801);
+}
+.card-icon-container {
+    border: 1px solid;
+    padding: 1.5rem;
+    border-radius: 7rem;
+    transition: 0.7s;
+}
+.polis-color-lightblue .card-info-icon {
+    color: rgba(96, 191, 250, 0.801) !important;
+    transition: 0.7s;
+}
+.polis-color-lightblue .card-icon-container:hover {
+    color: rgba(155, 125, 214, 0.87) !important;
+    background-color:rgba(155, 125, 214, 0.651) ;
+}
+.polis-color-lightblue .card-icon-container:hover .card-info-icon {
+    color: rgba(139, 108, 201, 0.87) !important;
+}
+.polis-color-violet {
+    background-color: rgba(244, 239, 253);
+    border: 4px solid rgba(155, 125, 214, 0.87);
+    box-shadow: 2px 2px 6px rgba(53, 53, 53, 0.869);
+    color: rgba(155, 125, 214, 0.87) !important;
+}
+.polis-color-violet .card-info-icon {
+    color: rgba(155, 125, 214, 0.87) !important;
+    transition: 0.3s;
+}
+.polis-color-violet .card-icon-container:hover {
+    color: rgba(96, 191, 250, 0.87) !important;
+    background-color:rgba(96, 191, 250, 0.445) ;
+}
+.polis-color-violet .card-icon-container:hover .card-info-icon {
+    color: rgba(96, 191, 250) !important;
+}
+
+
+.card-info-text {
+    font-family: Montserrat, Helvetica, Times, serif;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: -0.1rem;
+    opacity: 0;
+    transition: 1.2s;
+}
+.card-info-style:hover .card-info-text {
+    opacity: 1;
+}
+.card-info-icon {
     font-size: 5rem;
-    color: whitesmoke;
 }
 .to-top-btn {
     border-radius: 2rem;
     transition: 0.1s;
 }
 .to-top-btn:hover {
-    border:outset;
+    border: outset;
     background-color: gray;
     color: white !important;
+}
+.card-title-style {
+    font-family: Montserrat, Helvetica, Times, serif;
+    text-shadow: rgb(0 0 0 / 10%) -5.44px 1.775px;
+    font-weight: 700;
+    letter-spacing: -0.25rem;
+}
+.small {
+    font-size: 2.5rem;
+    line-height: 1.015;
+}
+.medium {
+    line-height: 1.61;
+    font-size: 3em;
 }

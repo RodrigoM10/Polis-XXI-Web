@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes} from "react-router-dom";
 
 // Shared Components
-import  Footer  from "./components/shared/footer/Footer";
+import  {Footer}  from "./components/shared/footer/Footer";
 import { NavbarMain } from "./components/shared/navbarMain/NavbarMain";
 // Pages
 import Home from "./pages/Home";
