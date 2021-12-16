@@ -10,3 +10,57 @@
 .logo-navbar{
   width: 15rem;
 }
+.navbar a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* hover efect */
+.navbar-links li {
+  list-style: none;
+  position: relative;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+}
+.navbar-links li a {
+  font-size: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 5px 1px;
+  z-index: 1;
+  transition: all 0.5s;
+}
+.navbar-links li:before {
+  content: "";
+  position: absolute;
+  height: 1%;
+  width: 0;
+  color: white !important;
+  background-color: rgb(133, 27, 133);
+  right: 0;
+  z-index: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+.navbar-links li::after {
+  content: "";
+  position: absolute;
+  height: 1%;
+  width: 0;
+  color: white !important;
+  background-color: rgb(133, 27, 133);
+  left: 0;
+  z-index: 0;
+  bottom: 0;
+  transition: all 0.5s;
+
+}
+.navbar-links li:hover:before,
+li:hover::after {
+  width: 100%;
+}
+/* link active */
+.link-active {
+  color: rgb(151, 50, 151) !important ;
+}
