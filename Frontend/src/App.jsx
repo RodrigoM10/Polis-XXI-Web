@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 //router dom
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 // Shared Components
 import { Footer } from "./components/shared/footer/Footer";
@@ -20,10 +20,16 @@ import { HeaderMain } from "./components/headerMain/HeaderMain";
 
 
 function App() {
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
+
   return (
     <div className="schema-page">
       <NavbarMain />
-      <HeaderMain />
+      {splitLocation[1] === '' &&
+        <HeaderMain />
+      }
       <Container className="bg-container-main mb-3">
         <Routes >
           {/* pages */}
