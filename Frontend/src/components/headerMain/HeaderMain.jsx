@@ -15,7 +15,7 @@ export const HeaderMain = () => {
         <div className="d-flex flex-column justify-content-center align-items-center header-main">
             <img className="w-50" src={headerLogo} alt="header-logo" />
             <TextMain />
-            <button onClick={scrollDown} className="scroll-down-btn rounded-circle"><FaArrowCircleDown className="mb-1"/></button>
+            <button onClick={scrollDown} className="scroll-down-btn rounded-circle"><FaArrowCircleDown className="mb-1"/></button>      
         </div>
     )
 }

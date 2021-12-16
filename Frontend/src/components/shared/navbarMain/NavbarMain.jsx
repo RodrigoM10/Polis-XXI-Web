@@ -1,12 +1,11 @@
 import React from 'react'
 import { Container, Form, FormControl, Nav, Navbar, Button } from 'react-bootstrap'
+import { FaSearch } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 import Logo from '../../../assets/LogoNuevo1.png'
 import './navbarMain.css'
 
-
-import { AiOutlineSearch } from 'react-icons/ai';
-
+// import {IoSearchCircle} from 'react-icons/io'
 
 export const NavbarMain = () => {
   return (
@@ -37,7 +36,8 @@ export const NavbarMain = () => {
           className="me-2"
           aria-label="Search"
         />
-        <Button variant="info" className="rounded-circle d-flex justify-content-center align-items-center"><AiOutlineSearch/></Button>
+        {/* <Button variant="info" className="btn-search d-flex justify-content-center align-items-center"><AiOutlineSearch/></Button> */}
+        <button className="btn-search"><FaSearch className="mb-2"/></button>
       </Form>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Container>
