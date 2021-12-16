@@ -22,8 +22,8 @@ import { HeaderMain } from "./components/headerMain/HeaderMain";
 function App() {
   return (
     <div className="schema-page">
-      <HeaderMain />
       <NavbarMain />
+      <HeaderMain />
       <Container className="bg-container-main mb-3">
         <Routes >
           {/* pages */}

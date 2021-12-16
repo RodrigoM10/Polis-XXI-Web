@@ -1,3 +1,7 @@
+.navbar-main {
+  box-shadow: 2px 2px 6px rgba(53, 53, 53, 0.869);
+  
+}
 @media screen and (max-width: 992px) {
     .logo-navbar-contain{
         width: 100%;

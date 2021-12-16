@@ -8,7 +8,7 @@ import { TextMain } from '../textMain/TextMain'
 import { FaArrowCircleDown} from 'react-icons/fa'
 
 const scrollDown = () => {
-    window.scrollTo(0, 505);
+    window.scrollTo(0, 550);
 };
 export const HeaderMain = () => {
     return (
