@@ -1,10 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 //router dom
-import { Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 // Shared Components
-import  {Footer}  from "./components/shared/footer/Footer";
+import { Footer } from "./components/shared/footer/Footer";
 import { NavbarMain } from "./components/shared/navbarMain/NavbarMain";
 // Pages
 import Home from "./pages/Home";
@@ -15,15 +15,19 @@ import Youngsters from "./pages/Youngsters";
 import Institutions from "./pages/Institutions";
 import Environment from "./pages/Environment";
 import NoMatch from "./pages/NoMatch";
+import { Container } from "react-bootstrap";
+import { HeaderMain } from "./components/headerMain/HeaderMain";
 
 
 function App() {
   return (
     <div className="schema-page">
+      <HeaderMain />
       <NavbarMain />
-      <Routes >
-        {/* pages */}
-          <Route path="/"  element={<Home />} />
+      <Container className="bg-container-main mb-3">
+        <Routes >
+          {/* pages */}
+          <Route path="/" element={<Home />} />
 
           <Route path="/aboutUs" element={<AboutUs />} />
 
@@ -35,17 +39,18 @@ function App() {
 
           <Route path="/institutions" element={<Institutions />} />
 
-          <Route path="/environment" element={<Environment />}/>
-            
-          <Route path="/404" element={<NoMatch />}/>
-           <Route path="*" element={<NoMatch />} />
+          <Route path="/environment" element={<Environment />} />
 
-          </Routes>
-          <Footer />
+          <Route path="/404" element={<NoMatch />} />
+          <Route path="*" element={<NoMatch />} />
+
+        </Routes>
+      </Container>
+      <Footer />
 
 
-        </div>
-        );
+    </div>
+  );
 }
 
-        export default App;
+export default App;
