@@ -10,12 +10,12 @@ export const Footer = () => {
     };
     return (
         <div className="mt-auto footer-style">
-            <div className="d-flex justify-content-center align-items-center p-3 bg-secondary">
+            <div className="d-flex justify-content-center align-items-center p-3">
                 <FaFacebookSquare className="social-icon"/>
                 <FaInstagramSquare className="social-icon"/>
                 <FaTwitterSquare className="social-icon"/>
             </div>
-            <div className="d-flex align-items-center justify-content-around py-2">
+            <div className="d-flex align-items-center justify-content-around py-2 ">
                 <div>
                     <span >PolisXX1 <FaFrog className="mb-1 mx-1" /></span>
                 </div>

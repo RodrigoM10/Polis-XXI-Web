@@ -30,13 +30,12 @@ export const NavbarMain = () => {
             </Nav>
         </Navbar.Collapse>
         <Form className="d-flex">
-        <FormControl
+        <input
           type="search"
           placeholder="Buscar"
-          className="me-2"
+          className="me-2 rounded-2 input-search-style"
           aria-label="Search"
         />
-        {/* <Button variant="info" className="btn-search d-flex justify-content-center align-items-center"><AiOutlineSearch/></Button> */}
         <button className="btn-search"><FaSearch className="mb-2"/></button>
       </Form>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />

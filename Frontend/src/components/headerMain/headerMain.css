@@ -1,6 +1,6 @@
 .header-main {
     height: 86vh;
-    background-color: rgba(129, 167, 154, 0.158) !important;
+    background-color: rgba(209, 236, 255, 0.3) !important;
     padding: 2rem;
 }
 .scroll-down-btn{
@@ -10,9 +10,9 @@
     font-size: 2.5rem;
 }
 .scroll-down-btn svg{
-    color: rgb(77, 175, 236) ;
+    color: #00a9bc ;
     transition: 0.3s;
 }
 .scroll-down-btn:hover svg{
-    color: rgb(100, 5, 100) ;
+    color: #662581 ;
 }

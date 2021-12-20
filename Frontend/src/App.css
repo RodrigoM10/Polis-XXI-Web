@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  background-color: rgba(129, 167, 154, 0.158) !important;
+  background-color: rgb(255, 254, 254) !important;
 }
 .schema-page {
   display: flex;
