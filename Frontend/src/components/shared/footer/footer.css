@@ -1,6 +1,10 @@
 .footer-style{
     background-color: #616160 ;
 }
+.footer-bottom-style{
+  /* background-color: #787d82 ; */
+  background-color: #caccc9;
+}
 .social-icon {
     margin: 0 0.5rem;
     color: whitesmoke !important;
@@ -8,9 +12,6 @@
     font-size: 2rem;
     cursor: pointer;
 }
-
-
-
 /* .footer-container {
     background-color: #979797;
     padding: 3rem 0 0.1rem 0;

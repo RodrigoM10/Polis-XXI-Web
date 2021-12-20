@@ -15,7 +15,7 @@ export const Footer = () => {
                 <FaInstagramSquare className="social-icon"/>
                 <FaTwitterSquare className="social-icon"/>
             </div>
-            <div className="d-flex align-items-center justify-content-around py-2 ">
+            <div className="d-flex align-items-center justify-content-around py-2 footer-bottom-style">
                 <div>
                     <span >PolisXX1 <FaFrog className="mb-1 mx-1" /></span>
                 </div>
