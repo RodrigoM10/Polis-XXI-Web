@@ -28,9 +28,11 @@ function Environment() {
 
     return (
         <div>
-            AMBIENTE
-            <CardsEnvironment 
-            infoAxesEnvironment={infoAxesEnvironment}
+            <h2 className='text-center my-4 title-axes'>
+                AMBIENTE
+            </h2>
+            <CardsEnvironment
+                infoAxesEnvironment={infoAxesEnvironment}
             />
         </div>
     )

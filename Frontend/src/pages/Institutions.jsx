@@ -29,7 +29,9 @@ function Institutions() {
     ]
     return (
         <div>
+            <h2 className='text-center my-4 title-axes'>
             FORTALECIMIENTO INSTITUCIONAL
+            </h2>
             <CardsInstitutions 
             infoAxesInstitutions={infoAxesInstitutions}
             />
