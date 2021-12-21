@@ -29,7 +29,7 @@ Gracias a todos que con sus aportes nos permiten seguir trabajando y ampliando t
       if (text.length > 106 && showMore) {
         return (
           <>
-            <p style={{fontFamily:"Montserrat",justifyContent:"center",alignItems:"center"}}>
+            <p>
               {text}
               <span className="showMore-btn ms-1" onClick={() => setShowMore(false)}>
                 Ver menos
@@ -42,7 +42,7 @@ Gracias a todos que con sus aportes nos permiten seguir trabajando y ampliando t
       if (text.length > 107) {
         return (
           <>
-            <p style={{fontFamily:"Montserrat",justifyContent:"center",alignItems:"center"}}>
+            <p>
               {text.slice(0, 254)}
               <span className="showMore-btn" onClick={() => setShowMore(true)}>
                 ... Ver más
@@ -56,7 +56,7 @@ Gracias a todos que con sus aportes nos permiten seguir trabajando y ampliando t
 
     return (
         <>
-            {/* <div className="d-flex flex-column m-5">
+            <div className="d-flex flex-column m-5">
                 <p className="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
@@ -64,10 +64,10 @@ Gracias a todos que con sus aportes nos permiten seguir trabajando y ampliando t
                 <p onClick={verMasClick} className="showMore-btn">
                     {linkContent}
                 </p>
-            </div> */}
-            <div className="text-center d-flex flex-column m-5">
-               {getText()}
             </div>
+            {/* <div className="text-center d-flex flex-column m-5">
+               {getText()}
+            </div> */}
         </>
     )
 }

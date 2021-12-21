@@ -12,8 +12,6 @@ const CardMain = ({ cardInfo }) => {
                 <div className="card-icon-container d-flex justify-content-center align-items-center">
                     <Card.Link as={Link} to={cardInfo.link} className="d-flex justify-content-center card-info-icon text-decoration-none">{cardInfo.icon}</Card.Link>
                 </div>
-
-
                 <Card.Text className="card-info-text mt-4 text-center">
                     {cardInfo.text}
                 </Card.Text>

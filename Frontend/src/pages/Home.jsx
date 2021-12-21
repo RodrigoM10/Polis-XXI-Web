@@ -4,8 +4,6 @@ import CardsMain from '../components/cardsMain/CardsMain'
 
 
 function Home() {
-
-
     let cardsInfo = [
         {
             id: 1,
@@ -37,9 +35,9 @@ function Home() {
             text: 'Sumate a los proyectos, capacitaciones y aprovechá los recursos.'
         },
     ]
-    console.log(cardsInfo)
+    
     return (
-        <div>
+        <div className="my-5 ">
             <CardsMain cardsInfo={cardsInfo} />
         </div>
     )
