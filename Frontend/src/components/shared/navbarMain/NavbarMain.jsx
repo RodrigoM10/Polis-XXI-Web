@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Form, FormControl, Nav, Navbar, Button } from 'react-bootstrap'
+import { Container, Form, Nav, Navbar } from 'react-bootstrap'
 import { FaSearch } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 import Logo from '../../../assets/LogoNuevo1.png'
@@ -9,7 +9,7 @@ import './navbarMain.css'
 
 export const NavbarMain = () => {
   return (
-    <Navbar bg="light" expand="lg" className="sticky-top navbar-main" >
+    <Navbar bg="light" expand="lg" className="sticky-top  navbar-main" >
       <Container className="d-flex align-items-center">
         <div className=" d-flex justify-content-center justify-content-lg-start align-items-center text-center logo-navbar-contain">
         <Navbar.Brand as={NavLink} to="/" ><img src={Logo} alt="logo" className="logo-navbar" /></Navbar.Brand>

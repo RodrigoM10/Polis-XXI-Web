@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import { CardsEnvironment } from '../components/cardsAxes/CardsEnvironment'
 
 function Environment() {
@@ -27,14 +28,14 @@ function Environment() {
     ]
 
     return (
-        <div>
+        <Container>
             <h2 className='text-center my-4 title-axes'>
                 AMBIENTE
             </h2>
             <CardsEnvironment
                 infoAxesEnvironment={infoAxesEnvironment}
             />
-        </div>
+        </Container>
     )
 }
 

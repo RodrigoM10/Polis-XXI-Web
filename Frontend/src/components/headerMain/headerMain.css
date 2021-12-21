@@ -3,6 +3,17 @@
     background-color: #caccc946 !important;
     padding: 1rem 2rem;
 }
+@media screen and (max-width: 762px) {
+    .header-main{
+        height: auto;
+        padding:0.5rem 0rem;
+  }
+}
+.text-main a {
+    margin: 0.5rem 0;
+    color: #00a9bc;
+}
+
 .scroll-down-btn{
     background-color: transparent;
     padding: 0;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import { CardsYoungsters } from '../components/cardsAxes/CardsYoungsters'
 
 function Youngsters() {
@@ -37,14 +38,14 @@ function Youngsters() {
 
 
     return (
-        <div>
+        <Container>
             <h2 className='text-center my-4 title-axes'>
                 JÓVENES
             </h2>
             <CardsYoungsters
                 infoAxesYoungsters={infoAxesYoungsters}
             />
-        </div>
+        </Container>
     )
 }
 

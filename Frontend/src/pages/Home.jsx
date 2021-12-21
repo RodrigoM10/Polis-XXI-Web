@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import { FaEnvira, FaPeopleCarry, FaUserGraduate } from 'react-icons/fa'
 import CardsMain from '../components/cardsMain/CardsMain'
 
@@ -35,11 +36,11 @@ function Home() {
             text: 'Sumate a los proyectos, capacitaciones y aprovechá los recursos.'
         },
     ]
-    
+
     return (
-        <div className="my-5 ">
+        <Container className="my-5 ">
             <CardsMain cardsInfo={cardsInfo} />
-        </div>
+        </Container>
     )
 }
 

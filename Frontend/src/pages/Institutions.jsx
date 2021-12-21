@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import { CardsInstitutions } from '../components/cardsAxes/CardsInstitutions'
 
 function Institutions() {
@@ -28,14 +29,14 @@ function Institutions() {
     
     ]
     return (
-        <div>
+        <Container>
             <h2 className='text-center my-4 title-axes'>
             FORTALECIMIENTO INSTITUCIONAL
             </h2>
             <CardsInstitutions 
             infoAxesInstitutions={infoAxesInstitutions}
             />
-        </div>
+        </Container>
     )
 }
 

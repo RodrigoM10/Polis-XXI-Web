@@ -1,7 +1,17 @@
-.showMore-btn{
+.showMore-btn {
     cursor: pointer;
-    color: #662581;
+    color: #00a9bc;
 }
 .showMore-btn:hover {
+    color: #662581;
+
+}
+.text-main-mobile {
+    text-align: justify;
+    white-space: pre-wrap;
+    font-size: 15px;
+}
+.text-main-mobile a {
+    margin: 0.5rem 0;
     color: #00a9bc;
 }
