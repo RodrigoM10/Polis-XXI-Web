@@ -1,28 +1,17 @@
 import React from 'react'
 import './footer.css'
+import { Link } from "react-router-dom";
 
 // react-icons
 import { FaArrowUp, FaFacebookSquare, FaFrog, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
 
 export const Footer = () => {
-    const scrollToTop = () => {
-        window.scrollTo(0, 0);
-    };
+    
+    
     return (
         <div className="mt-auto footer-style">
-            <div className="d-flex justify-content-center align-items-center p-3">
-                <FaFacebookSquare className="social-icon"/>
-                <FaInstagramSquare className="social-icon"/>
-                <FaTwitterSquare className="social-icon"/>
-            </div>
-            <div className="d-flex align-items-center justify-content-around py-2 footer-bottom-style">
-                <div>
-                    <span >PolisXX1 <FaFrog className="mb-1 mx-1" /></span>
-                </div>
-                <div>
-                    <button onClick={scrollToTop} className="to-top-btn"><FaArrowUp className="mb-1"/></button>
-                </div>
-            </div>
+                
+           
         </div>
     )
 }
@@ -92,16 +81,16 @@ export const Footer = () => {
 //           <FormContact />
 //         </div>
 //       </section> */}
-//       <div class=' col md-4 footer-links'>
-//         <div className='footer-link-wrapper'>
-//           <div class='footer-link-items'>
-//             <h2>Nosotros</h2>
-//             <Link to='/sign-up'>Quienes somos</Link>
-//             <Link to='/'>Testimonios</Link>
-//             <Link to='/'>Carrera</Link>
+    //   <div class=' col md-4 footer-links'>
+    //     <div className='footer-link-wrapper'>
+    //       <div class='footer-link-items'>
+    //         <h2>Nosotros</h2>
+            // <Link to='/sign-up'>Quienes somos</Link>
+            // <Link to='/'>Testimonios</Link>
+            // <Link to='/'>Carrera</Link>
             
             
-//           </div>
+    //       </div>
 //           <div class='footer-link-items'>
 //             <h2>Contactanos</h2>
 //             <Link to='/'>Contact</Link>

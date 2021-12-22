@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes, useLocation } from "react-router-dom";
 
 // Shared Components
+import  {FooterPolis}  from "./components/shared/footer/FooterPolis";
 import { Footer } from "./components/shared/footer/Footer";
 import { NavbarMain } from "./components/shared/navbarMain/NavbarMain";
 // Pages
@@ -17,6 +18,7 @@ import Environment from "./pages/Environment";
 import NoMatch from "./pages/NoMatch";
 import { Container } from "react-bootstrap";
 import { HeaderMain } from "./components/headerMain/HeaderMain";
+
 
 
 function App() {
@@ -35,24 +37,24 @@ function App() {
           {/* pages */}
           <Route path="/" element={<Home />} />
 
-          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route exact path="/aboutUs" element={<AboutUs />} />
 
-          <Route path="/novelties" element={<Novelties />} />
+          <Route exact path="/novelties" element={<Novelties />} />
 
-          <Route path="/participate" element={<Participate />} />
+          <Route exact path="/participate" element={<Participate />} />
 
-          <Route path="/youngsters" element={<Youngsters />} />
+          <Route exact path="/youngsters" element={<Youngsters />} />
 
-          <Route path="/institutions" element={<Institutions />} />
+          <Route exact path="/institutions" element={<Institutions />} />
 
-          <Route path="/environment" element={<Environment />} />
+          <Route exact path="/environment" element={<Environment />} />
 
           <Route path="/404" element={<NoMatch />} />
           <Route path="*" element={<NoMatch />} />
 
         </Routes>
       </Container>
-      <Footer />
+      <FooterPolis />
 
 
     </div>

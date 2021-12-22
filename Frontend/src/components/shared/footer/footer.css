@@ -1,5 +1,7 @@
 .footer-style{
     background-color: #616160 ;
+    display:grid;
+    grid-template-columns: 30% 70%;
 }
 .footer-bottom-style{
   /* background-color: #787d82 ; */
