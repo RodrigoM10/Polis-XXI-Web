@@ -8,6 +8,7 @@
     border-radius: 0.5rem;
     /* background-color: rgb(24, 24, 24); */
 }
+
 .card-info-style:hover {
     transform: scale(105%);
 }
@@ -94,7 +95,7 @@
     font-family: Montserrat, Helvetica, Times, serif;
     text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
     font-weight: 700;
-    letter-spacing: -0.19rem;
+    letter-spacing: -0.17rem;
 }
 .small {
     font-size: 2.15rem;
@@ -103,4 +104,13 @@
 .medium {
     font-size: 2.65em;
     line-height: 1.61;
+}
+@media screen and (max-width: 762px) {
+    .card-info-style{
+       width: 18rem;
+  }
+  .small{
+      font-size: 1.8em;
+    line-height: 1.2;
+  }
 }

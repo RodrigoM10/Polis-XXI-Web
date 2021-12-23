@@ -3,13 +3,17 @@
     margin:0px;
     position:fixed;
     right:-130px;
-    top:230px;
+    top:318px;
     width:200px;
     z-index: 1100;
 }
+@media screen and (max-width: 762px) {
+    .sticky-container{
+        top: 420px;
+    }
+}
 .sticky li{
     list-style-type:none;
-    background-color:#fff;
     color:#efefef;
     height:43px;
     padding:0px;
@@ -27,7 +31,7 @@
 }
 .sticky li .sidebarIcon{
     float:left;
-    margin:5px 4px;
+    margin:5px 1px;
     margin-right:5px;
 }
 .sticky li p{
@@ -38,7 +42,7 @@
 }
 .sticky li p a{
     text-decoration:none;
-    color:#2a7a9c !important;
+    color:#662581!important;
 }
 .sticky li p a:hover{
     text-decoration:underline;

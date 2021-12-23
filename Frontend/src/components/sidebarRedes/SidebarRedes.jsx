@@ -11,27 +11,23 @@ export const SidebarRedes = () => {
         <ul class="sticky">
             <li>
                 <FaFacebookSquare className="sidebarIcon"/>
-                <p><Link to="https://www.facebook.com/programacionnet" target="_blank">Like Us on<br/>Facebook</Link></p>
+                <p><Link to="https://www.facebook.com/programacionnet" target="_blank">Dale Like a<br/>Facebook</Link></p>
             </li>
             <li>
                 <FaTwitterSquare className="sidebarIcon" />
-                <p><Link to="https://twitter.com/noprog" target="_blank">Follow Us on<br/>Twitter</Link></p>
-            </li>
-            {/* <li>
-                <GrMail className="sidebarIcon" />
-                <p><Link to="https://plus.google.com/programacionnet" target="_blank">Follow Us on<br/>Google+</Link></p>
-            </li> */}
-            <li>
-                <FaLinkedin className="sidebarIcon" />
-                <p><Link to="https://www.linkedin.com/company/programacionnet" target="_blank">Follow Us on<br/>LinkedIn</Link></p>
-            </li>
-            <li>
-                <FaYoutubeSquare className="sidebarIcon" />
-                <p><Link to="http://www.youtube.com/programacionnet" target="_blank">Subscribe on<br/>YouYube</Link></p>
+                <p><Link to="https://twitter.com/noprog" target="_blank">Seguinos en<br/>Twitter</Link></p>
             </li>
             <li>
                 <FaInstagramSquare className="sidebarIcon" />
-                <p><Link to="https://www.pinterest.com/programacionnet" target="_blank">Follow Us on<br/>Pinterest</Link></p>
+                <p><Link to="https://twitter.com/noprog" target="_blank">Seguinos en<br/>Instagram</Link></p>
+            </li>
+            <li>
+                <FaLinkedin className="sidebarIcon" />
+                <p><Link to="https://www.linkedin.com/company/programacionnet" target="_blank">Conectanos en<br/>LinkedIn</Link></p>
+            </li>
+            <li>
+                <FaYoutubeSquare className="sidebarIcon" />
+                <p><Link to="http://www.youtube.com/programacionnet" target="_blank">Subcríbete en<br/>YouYube</Link></p>
             </li>
         </ul>
     </div>
