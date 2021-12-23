@@ -9,28 +9,28 @@ function Youngsters() {
             id: 1,
             title: 'Nuestra Historia',
             subtitle: '',
-            position: 'me-md-auto',
+            position: '',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
         {
             id: 2,
             title: 'Webinars',
             subtitle: '',
-            position: 'alt ms-md-auto',
+            position: 'alt',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
         {
             id: 3,
             title: 'Eventos',
             subtitle: '',
-            position: 'me-md-auto',
+            position: '',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
         {
             id: 4,
             title: 'Agenda',
             subtitle: '',
-            position: 'alt ms-md-auto',
+            position: 'alt',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
 

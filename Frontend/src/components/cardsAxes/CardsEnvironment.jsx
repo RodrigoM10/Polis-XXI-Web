@@ -5,7 +5,7 @@ export const CardsEnvironment = ({infoAxesEnvironment}) => {
    const  mapCardsAxes = infoAxesEnvironment.map((infoCardAxes, i) => (<CardAxes key={i} infoCardAxes={infoCardAxes} />));
 
     return (
-        <div>
+        <div className='row'>
             {mapCardsAxes}
         </div>
     )

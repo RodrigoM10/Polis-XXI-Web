@@ -4,8 +4,7 @@ import './cardAxes.scss'
 export const CardAxes = ({infoCardAxes}) => {
 
     return (
-        <div >
-            <div className={`blog-card mx-auto mx-md-0 ${infoCardAxes.position}`}>
+        <div className={`blog-card ${infoCardAxes.position} px-0 mx-auto`}>
                 <div className="meta">
                     <div className="photo"></div>
                     <ul className="details">
@@ -26,10 +25,9 @@ export const CardAxes = ({infoCardAxes}) => {
                     <h2>Opening a door to the future</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
                     <p className="read-more">
-                        <a href="#">Read More</a>
+                        <a href="#">Leer más</a>
                     </p>
                 </div>
             </div>
-        </div>
     )
 }

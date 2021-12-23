@@ -6,7 +6,7 @@ export const CardsInstitutions = ({infoAxesInstitutions}) => {
    const  mapCardsAxes = infoAxesInstitutions.map((infoCardAxes, i) => (<CardAxes key={i} infoCardAxes={infoCardAxes} />));
 
     return (
-        <div>
+        <div className="row">
             {mapCardsAxes}
         </div>
     )

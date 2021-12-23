@@ -9,32 +9,32 @@ function Institutions() {
             id: 1,
             title: 'Transparencia y rendición de cuentas',
             subtitle: '',
-            position: 'me-md-auto',
+            position: '',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
         {
             id: 2,
             title: 'Observatorio legislativo',
             subtitle: '',
-            position: 'alt ms-md-auto',
+            position: 'alt',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
         {
             id: 3,
             title: 'Observatorio vial ',
             subtitle: '',
-            position: 'me-md-auto',
+            position: '',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
-    
+
     ]
     return (
         <Container>
             <h2 className='text-center my-4 title-axes'>
-            FORTALECIMIENTO INSTITUCIONAL
+                FORTALECIMIENTO INSTITUCIONAL
             </h2>
-            <CardsInstitutions 
-            infoAxesInstitutions={infoAxesInstitutions}
+            <CardsInstitutions
+                infoAxesInstitutions={infoAxesInstitutions}
             />
         </Container>
     )

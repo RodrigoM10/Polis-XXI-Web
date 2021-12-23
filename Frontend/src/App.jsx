@@ -18,6 +18,7 @@ import Environment from "./pages/Environment";
 import NoMatch from "./pages/NoMatch";
 import { Container } from "react-bootstrap";
 import { HeaderMain } from "./components/headerMain/HeaderMain";
+import { SidebarRedes } from "./components/sidebarRedes/SidebarRedes";
 
 
 
@@ -32,6 +33,7 @@ function App() {
       {splitLocation[1] === '' &&
         <HeaderMain />
       }
+      <SidebarRedes />
       <Container className="bg-container-main mb-3">
         <Routes >
           {/* pages */}

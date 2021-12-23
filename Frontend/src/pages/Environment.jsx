@@ -8,21 +8,21 @@ function Environment() {
             id: 1,
             title: 'Proyectos',
             subtitle: '',
-            position: 'me-md-auto',
+            position: '',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
         {
             id: 2,
             title: 'Capacitaciones',
             subtitle: '',
-            position: 'alt ms-md-auto',
+            position: 'alt',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
         {
             id: 3,
             title: 'Recursos',
             subtitle: '',
-            position: 'me-md-auto',
+            position: ' ',
             text: 'Conocé nuestra historia, webinars, eventos y agenda.'
         },
     ]
