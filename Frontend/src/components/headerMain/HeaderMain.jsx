@@ -9,7 +9,7 @@ import { FaArrowCircleDown } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const scrollDown = () => {
-    window.scrollTo(0, 550);
+    window.scrollTo(0, 500);
 };
 export const HeaderMain = () => {
     return (
