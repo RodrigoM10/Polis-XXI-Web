@@ -6,6 +6,16 @@ import { Link } from 'react-router-dom'
 
 
 export const SidebarRedes = () => {
+
+    let ubicacion = window.pageYOffset;
+    window.onscroll = function() {
+        let Desplazamiento = window.pageYOffset;
+
+        if(ubicacion >= Desplazamiento){
+            
+        }
+    }
+
     return (
         <div class="sticky-container">
         <ul class="sticky">
