@@ -11,7 +11,24 @@ body {
 }
 .title-axes{
   font-family: Montserrat, Helvetica, Times, serif;
+  color: #662581;
   font-size: 30px;
   text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
   font-weight: 700;
+}
+
+.title-axes-insti{
+  font-family: Montserrat, Helvetica, Times, serif;
+  color: #662581;
+  font-size: 50px;
+  text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
+  font-weight: 700;
+}
+
+.title-axes-trans {
+  font-family: Montserrat, Helvetica, Times, serif;
+  color: #00a9bc;
+  font-size: 27px;
+  text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
+  font-weight: 600;
 }

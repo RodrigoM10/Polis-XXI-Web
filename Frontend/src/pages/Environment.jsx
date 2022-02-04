@@ -9,21 +9,28 @@ function Environment() {
             title: 'Proyectos',
             subtitle: '',
             position: '',
-            text: 'Conocé nuestra historia, webinars, eventos y agenda.'
+            text: 'Conocé los proyectos en curso y los que propondremos en todo este año'
         },
         {
             id: 2,
-            title: 'Capacitaciones',
+            title: 'Notas',
             subtitle: '',
             position: 'alt',
-            text: 'Conocé nuestra historia, webinars, eventos y agenda.'
+            text: 'Notas con mucha información.'
         },
         {
             id: 3,
-            title: 'Recursos',
+            title: 'Normativa',
             subtitle: '',
             position: ' ',
-            text: 'Conocé nuestra historia, webinars, eventos y agenda.'
+            text: 'Conocé las regulaciones, leyes y normas que rigen la realización de los proyectos de caracter ambiental'
+        },
+        {
+            id: 4,
+            title: 'Formación',
+            subtitle: '',
+            position: ' ',
+            text: 'Enterate de los cursos, talleres y webinars que tenemos para seguir formandote en el área.'
         },
     ]
 
@@ -32,8 +39,7 @@ function Environment() {
             <h2 className='text-center my-4 title-axes'>
                 AMBIENTE
             </h2>
-            <CardsEnvironment
-                infoAxesEnvironment={infoAxesEnvironment}
+            <CardsEnvironment infoAxesEnvironment={infoAxesEnvironment}
             />
         </Container>
     )
