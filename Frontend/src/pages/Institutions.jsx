@@ -1,51 +1,44 @@
 import React,{useEffect} from 'react';
-import {AnimatePresence, motion, useAnimation} from 'framer-motion/dist/framer-motion';
+import {motion, useAnimation} from 'framer-motion/dist/framer-motion';
 import {useInView} from 'react-intersection-observer';
 import { Container } from 'react-bootstrap';
-import { CardsInstitutions } from '../components/cardsAxes/CardsInstitutions';
 import '../App.css';
-import './Institutions.css';
+import '../pagesStyle/Institutions.css';
 
 
 
 function Institutions() {
 
-    let infoAxesInstitutions = [
-        {
-            id: 1,
-            title: 'Transparencia y rendición de cuentas',
-            subtitle: '',
-            position: '',
-            text: 'Conocé nuestra historia, webinars, eventos y agenda.'
-        },
-        {
-            id: 2,
-            title: 'Observatorio legislativo',
-            subtitle: '',
-            position: 'alt',
-            text: 'Conocé nuestra historia, webinars, eventos y agenda.'
-        },
-        {
-            id: 3,
-            title: 'Observatorio vial ',
-            subtitle: '',
-            position: '',
-            text: 'Conocé nuestra historia, webinars, eventos y agenda.'
-        },
+    // let infoAxesInstitutions = [
+    //     {
+    //         id: 1,
+    //         title: 'Transparencia y rendición de cuentas',
+    //         subtitle: '',
+    //         position: '',
+    //         text: 'Conocé nuestra historia, webinars, eventos y agenda.'
+    //     },
+    //     {
+    //         id: 2,
+    //         title: 'Observatorio legislativo',
+    //         subtitle: '',
+    //         position: 'alt',
+    //         text: 'Conocé nuestra historia, webinars, eventos y agenda.'
+    //     },
+    //     {
+    //         id: 3,
+    //         title: 'Observatorio vial ',
+    //         subtitle: '',
+    //         position: '',
+    //         text: 'Conocé nuestra historia, webinars, eventos y agenda.'
+    //     },
 
-    ]
+    // ]
     
     const {ref, inView} = useInView();
     const animation = useAnimation();
-     
-
-
-
-    
 
     useEffect(() => {
         
-       console.log(inView) 
         if(inView){
             animation.start ({
                 x:0,
@@ -72,8 +65,7 @@ function Institutions() {
               <motion.h3 className= ' my-4 title-axes'
                initial={{x:'100vw'}}
                animate={{x:0}}
-               transition= {{type:"spring", delay:0.5}}
-              
+               transition= {{type:"spring", delay:0.5}} 
               > 
               ¿Qué trabajamos en el Eje de Fortalecimiento Institucional?</motion.h3>  
               <motion.p className='fortalecimiento my-4 justify-content-center '
@@ -81,8 +73,8 @@ function Institutions() {
               animate={{opacity:1}}
               transition= {{delay:0.5 , duration:1.5,stiffness:5}}
               >Diseñamos recursos y herramientas para contribuir al fortalecimiento de todos los niveles de gobierno de cara al desarrollo y gestión de políticas e iniciativas sostenibles y transparentes. 
-Nuestro trabajo se orienta a modernizar las estructuras institucionales en pos de garantizar instancias de toma de decisiones representativas y cercanas a las necesidades de la ciudadanía.
-Los gobiernos locales son el punto de encuentro más cercano de la ciudadanía con la  estructura estatal y, por lo tanto, canal prioritario de las demandas sociales. En este sentido, la  necesidad de modernización de las estructuras, prácticas y procesos municipales es una  problemática de la agenda actual de los gobernantes y la ciudadanía, de cara a la mejora  constante de las políticas públicas.
+                Nuestro trabajo se orienta a modernizar las estructuras institucionales en pos de garantizar instancias de toma de decisiones representativas y cercanas a las necesidades de la ciudadanía.
+                Los gobiernos locales son el punto de encuentro más cercano de la ciudadanía con la  estructura estatal y, por lo tanto, canal prioritario de las demandas sociales. En este sentido, la  necesidad de modernización de las estructuras, prácticas y procesos municipales es una  problemática de la agenda actual de los gobernantes y la ciudadanía, de cara a la mejora  constante de las políticas públicas.
               </motion.p>         
             </div>
             <div>
@@ -100,7 +92,6 @@ Los gobiernos locales son el punto de encuentro más cercano de la ciudadanía c
                 >
                 Conformamos <strong>equipos interdisciplinados</strong>, con la unión de profesionales experimentados en la gestión pública,
                  el ámbito académico y el sector privado, para el  <strong>diseño de programas y capacitaciones</strong> específicas destinadas a <strong>agentes del sector público</strong> y a <strong>trabajadores del sector privado aplicados a la Responsabilidad Social Empresarial.</strong>
-
                 </motion.p>
                 <div className='transparencia'>
                 <motion.h4 className='col-md-4 title-axes-trans mt-5 '
@@ -188,6 +179,6 @@ Los gobiernos locales son el punto de encuentro más cercano de la ciudadanía c
             /> */}
         </Container>
     )
-}
+};
 
-export default Institutions
+export default Institutions;
