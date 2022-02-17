@@ -1,0 +1,57 @@
+
+
+.timeline-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.title {
+    margin:5rem;
+    margin-top:10rem;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+.titleh3{
+    padding-top: 0.25em;
+}
+
+.vertical-timeline::before{
+    background-color: #662581 !important;
+}
+
+.vertical-timeline-element-content{
+    background-color: rgba(0,169,188,0.5)!important;
+    padding:0 !important;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+    color: rgb(0, 0, 0);
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+
+.vertical-timeline-element-subtitle{
+    color:rgba(156, 156, 156, 0.815)
+}  
+
+
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }

@@ -9,16 +9,17 @@ import { Footer } from "./components/shared/footer/Footer";
 import { NavbarMain } from "./components/shared/navbarMain/NavbarMain";
 // Pages
 import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/Youngsters/AboutUs";
 import Novelties from "./pages/Novelties";
 import Participate from "./pages/Participate";
-import Youngsters from "./pages/Youngsters";
+import Youngsters from "./pages/Youngsters/Youngsters";
 import Institutions from "./pages/Institutions";
 import Environment from "./pages/Environment";
 import NoMatch from "./pages/NoMatch";
 import { Container } from "react-bootstrap";
 import { HeaderMain } from "./components/headerMain/HeaderMain";
 import { SidebarRedes } from "./components/sidebarRedes/SidebarRedes";
+import Participation from "./pages/Youngsters/Participation";
 
 
 
@@ -50,6 +51,7 @@ function App() {
           <Route exact path="/institutions" element={<Institutions />} />
 
           <Route exact path="/environment" element={<Environment />} />
+          <Route exact path="/participation" element={<Participation />} />
 
           <Route path="/404" element={<NoMatch />} />
           <Route path="*" element={<NoMatch />} />

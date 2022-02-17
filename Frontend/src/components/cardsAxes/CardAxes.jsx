@@ -1,5 +1,6 @@
 import React from 'react'
 import './cardAxes.scss'
+import {Link} from "react-router-dom"
 
 export const CardAxes = ({infoCardAxes}) => {
 
@@ -20,7 +21,8 @@ export const CardAxes = ({infoCardAxes}) => {
                     <br/>                  
                     <p className='card-text'>{infoCardAxes.text} </p>
                     <p className="read-more">
-                        <a href="#">Leer más</a>
+                        <Link to ={infoCardAxes.link}>Leer mas</Link>
+                        {/* <a href="#">Leer más</a> */}
                     </p>
                 </div>
             </div>
