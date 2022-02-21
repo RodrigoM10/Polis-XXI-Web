@@ -13,9 +13,10 @@
 .title {
     margin:5rem;
     margin-top:10rem;
-    font-size: 3em;
+    font-size: 8em;
     text-align: center;
-    font-family: "Bebas Neue", sans-serif;
+    color:#662581
+    
   }
 
 .titleh3{
@@ -45,6 +46,10 @@
 .vertical-timeline-element-subtitle{
     color:rgba(156, 156, 156, 0.815)
 }  
+
+.vertical-timeline-element-content-arrow{
+  border-right: 7px solid #5c0e5c !important;
+}
 
 
   @media only screen and (max-width: 1700px) {

@@ -1,5 +1,8 @@
 import "./Timeline.css";
 import {IoIosSchool} from 'react-icons/io'
+import {motion, useAnimation} from 'framer-motion/dist/framer-motion';
+import {useInView} from 'react-intersection-observer';
+
 
 
 import {
@@ -12,7 +15,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Timeline  = () => {
 
-
+    
     let schoolIconStyles = { background: "#00a9bc" };
 
     let timelineElements = [
@@ -76,9 +79,15 @@ const Timeline  = () => {
     return (
         
         <div className="timeline-container">
-            <h1 className="title">TIMELINE DE WEBINARS</h1>
+            <motion.h1 className="title" initial={{x:'-100vw'}}
+              animate={{x:0}}
+              transition= {{type:"spring", delay:0.5}}> WEBINARS</motion.h1>
 
             <VerticalTimeline>
+              <motion.div
+              initial={{x:'100vw'}}
+              animate={{x:0}}
+              transition= {{type:"spring", delay:0.5}}>
              {timelineElements.map((element) => (
                 
                 <VerticalTimelineElement  
@@ -99,6 +108,7 @@ const Timeline  = () => {
                     </div>
                 </VerticalTimelineElement>    
                 ))};
+                </motion.div>
             </VerticalTimeline>
         </div>
     

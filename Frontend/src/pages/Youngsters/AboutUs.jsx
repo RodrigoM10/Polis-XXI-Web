@@ -68,7 +68,7 @@ function AboutUs() {
     return (
 
         <div>
-         <h1>NOSOTROS</h1>
+         <h1 className='us-title'>NOSOTROS</h1>
          <div className='container-cards-us'>
          <CardUs  infoCardsUs={infoCardsUs}/>
          </div>
