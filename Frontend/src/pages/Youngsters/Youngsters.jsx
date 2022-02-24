@@ -11,7 +11,7 @@ function Youngsters() {
             subtitle: '',
             position: '',
             text: 'Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes',
-            link:'/AboutUs'
+            link:'/aboutUs'
         },
         {
             id: 2,
@@ -27,7 +27,7 @@ function Youngsters() {
             subtitle: '',
             position: '',
             text: 'Calendario mensual donde se visualizarán los eventos del mes',
-            link:'/Events'
+            link:'/events'
         },
         {
             id: 4,
@@ -35,7 +35,7 @@ function Youngsters() {
             subtitle: '',
             position: 'alt',
             text: 'Completa el formulario asi te actualizamos con la ultima información de nuestro portal',
-            link:'/JoinUs'
+            link:'/joinus'
         },
 
     ]

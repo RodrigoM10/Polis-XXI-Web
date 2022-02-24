@@ -8,6 +8,7 @@ import '../pagesStyle/Institutions.css';
 
 
 function Institutions() {
+    const [modalShow, setModalShow] = React.useState(false);
 
     // let infoAxesInstitutions = [
     //     {
