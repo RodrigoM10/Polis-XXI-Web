@@ -15,6 +15,7 @@ body {
   font-size: 30px;
   text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
   font-weight: 700;
+  text-align: center;
 }
 
 .title-axes-insti{
@@ -24,6 +25,7 @@ body {
   text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
   font-weight: 700;
 }
+
 
 .title-axes-trans {
   font-family: Montserrat, Helvetica, Times, serif;
