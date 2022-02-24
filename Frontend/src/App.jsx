@@ -26,21 +26,6 @@ function App() {
   const { pathname } = location;
   const splitLocation = pathname.split("/");
 
-  let headersMainPages = [
-    {
-      title: "NOSOTROS",
-      description: "Conocé más sobre nosotros, nuestra misión y que hacemos.",
-    },
-    {
-      title: "NOVEDADES",
-      description: "Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame al sircoo.",
-    },
-    {
-      title: "PARTICIPÁ/COLABORÁ",
-      description: "Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame al sircoo.",
-    },
-
-]
   return (
     <div className="schema-page">
       <NavbarMain />
