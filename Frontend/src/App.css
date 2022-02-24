@@ -2,7 +2,7 @@
 
 body {
   box-sizing: border-box;
-  background-color: rgb(255, 254, 254) !important;
+  background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal !important;
   color:#18191b !important ;
 }
 .schema-page {
@@ -11,7 +11,24 @@ body {
 }
 .title-axes{
   font-family: Montserrat, Helvetica, Times, serif;
+  color: #662581;
   font-size: 30px;
   text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
   font-weight: 700;
+}
+
+.title-axes-insti{
+  font-family: Montserrat, Helvetica, Times, serif;
+  color: #662581;
+  font-size: 50px;
+  text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
+  font-weight: 700;
+}
+
+.title-axes-trans {
+  font-family: Montserrat, Helvetica, Times, serif;
+  color: #00a9bc;
+  font-size: 27px;
+  text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
+  font-weight: 600;
 }

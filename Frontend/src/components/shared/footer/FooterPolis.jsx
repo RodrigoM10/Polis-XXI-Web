@@ -2,7 +2,7 @@ import React from "react";
 import './footerPolis.css'
 
 // react-icons
-import { FaArrowCircleUp, FaArrowUp, FaFacebookSquare, FaFrog, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
+import { FaArrowCircleUp, FaArrowUp, FaFacebookSquare, FaFrog, FaInstagramSquare, FaTwitterSquare,FaTelegram,FaDiscord,FaLinkedin } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
 export const FooterPolis = () => {
@@ -33,9 +33,12 @@ export const FooterPolis = () => {
                     <div className="footer-col">
                         <h2>Nuestras redes</h2>
                         <div className="social-links">
-                            <Link to=''><FaFacebookSquare className="social-icon" /></Link>
+                           
                             <Link to=''><FaInstagramSquare className="social-icon" /></Link>
                             <Link to=''><FaTwitterSquare className="social-icon" /></Link>
+                            <Link to=''><FaLinkedin className="social-icon" /></Link>
+                            <Link to=''><FaTelegram className="social-icon" /></Link>
+                            <Link to=''><FaDiscord className="social-icon" /></Link>
 
                         </div>
                     </div>

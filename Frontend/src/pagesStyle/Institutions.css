@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Montserrat:700,400);
+
+
+.propuesta{
+    font-family: Montserrat, Helvetica, Times, serif;
+    text-align: justify;
+    letter-spacing: 0.3mm;
+}
+
+.fortalecimiento{
+    font-family: Montserrat, Helvetica, Times, serif;
+    text-align: justify;
+    letter-spacing: 0.3mm;
+}
+
+.transparencia{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+.propuesta-trans{
+    font-family: Montserrat, Helvetica, Times, serif;
+    text-align: justify;
+    
+}
