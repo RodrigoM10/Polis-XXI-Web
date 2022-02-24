@@ -77,7 +77,7 @@ function AboutUs() {
     return (
         <div>
             <AboutUsDescription />
-            <Container className='my-3'>
+            <Container className='my-5'>
                 <CardUs infoCardsUs={infoCardsUs} />
             </Container>
         </div>

@@ -25,7 +25,6 @@ const CardUs = ({ infoCardsUs }) => {
                                 <span className="name-us">{card.name}</span>
                                 <span className="profession-us">{card.title}</span>
                                 <Link to={card.linkedin_link} target="_blank"><img className="icono-linkedin" src={icono_linkedin} alt="linkedin-icono" /></Link>
-
                             </div>
                         </div>
                     ))
