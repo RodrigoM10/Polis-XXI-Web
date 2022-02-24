@@ -13,20 +13,19 @@ const CardUs = ({ infoCardsUs }) => {
                 {infoCardsUs && (
                     infoCardsUs.map((card, i) => (
                         <div className="person-container" key={i}>
-                            <div className="container-us">
-                                <div className="container-inner">
-                                    <img
-                                        className="circle-us"
-                                        src={card.img}
-                                        alt="maroñas"
-                                    />
-                                </div>
+                            <div className="img-us-container">
+                                <img
+                                    className="circle-us"
+                                    src={card.img}
+                                    alt="maroñas"
+                                />
                             </div>
-                            <div className="description-us-container d-flex flex-column justify-content-center align-items-center">
+                            <div className="description-us-container d-flex flex-column justify-content-between align-items-center">
                                 <div className="divider-us"></div>
                                 <span className="name-us">{card.name}</span>
                                 <span className="profession-us">{card.title}</span>
                                 <Link to={card.linkedin_link} target="_blank"><img className="icono-linkedin" src={icono_linkedin} alt="linkedin-icono" /></Link>
+
                             </div>
                         </div>
                     ))

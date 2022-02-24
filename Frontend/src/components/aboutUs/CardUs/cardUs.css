@@ -2,53 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 18rem;
+  height: 460px;
 }
-.container-us {
+.img-us-container {
   border-radius: 50%;
-  height: 3px;
-  -webkit-tap-highlight-color: transparent;
+  height: 312px;
   transform: scale(0.48);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 400px;
 }
-.container-us:after {
-  background-color: #662581;
-  content: "";
-  height: 10px;
-  position: absolute;
-  top: 390px;
-  width: 100%;
-}
-.container-us:hover {
-  transform: scale(0.54);
-}
-.container-inner {
-  clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
-  position: relative;
-  transform-origin: 50%;
-  top: -200px;
+.img-us-container:hover {
+  transform: scale(0.55);
 }
 .circle-us {
-  background-color: #662581;
   border-radius: 50%;
-  cursor: pointer;
   height: 380px;
-  left: 10px;
-  pointer-events: none;
-  position: absolute;
-  top: 210px;
   width: 380px;
 }
-.circle-us img {
-  pointer-events: none;
-  position: relative;
-  transform: translateY(20px) scale(1.15);
-  transform-origin: 50% bottom;
-  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+.description-us-container{
+  height: auto;
 }
-
 .divider-us {
   background-color: #00a9bc;
   height: 4px;
@@ -56,7 +30,7 @@
 }
 .name-us {
   color: #404245;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 16px;
   text-align: center;
@@ -64,7 +38,7 @@
 .profession-us {
   color: #6e6e6e;
   font-family: arial;
-  font-size: 20px;
+  font-size: 17px;
   font-style: italic;
   margin-top: 4px;
 }
