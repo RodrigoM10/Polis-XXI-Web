@@ -15,19 +15,19 @@ import { Col, Row } from 'react-bootstrap'
 export const HeaderMain = () => {
     return (
         <div className="d-flex flex-column justify-content-start justify-content-lg-center align-items-center header-main">
-            {/* <img className="img-polis-header d-none d-lg-block mt-3" src={headerLogo} alt="header-logo" /> */}
-            <Row className="d-none d-md-inline justify-content-center align-items-center px-2 text-center" >
-                <Col xs={6}>   
-                    <h3 className='text-main d-flex flex-column m-4'>
+            <img className="img-polis-header d-none d-lg-block my-4" src={headerLogo} alt="header-logo" />
+            <Row className="d-none d-md-flex justify-content-center align-items-center  text-center" >
+                <Col xs={5}>   
+                    <h3 className='text-main m-3'>
                         Somos una institución cuyo propósito es fortalecer acciones y lazos comunitarios, la integración, el desarrollo sustentable y el bienestar de la sociedad.
                     </h3>
                 </Col>
-                    <br /> 
-                <Col>   
-                    <h5>
+                <Col xs={5}>   
+                    <p className='text-main m-4'>
                         Para alcanzar dichos objetivos, nuestros equipos profesionales necesitan de la colaboración de nuestros socixs, colaboradores y suscriptores. Gracias a todos que con sus aportes nos permiten seguir trabajando y ampliando todos los proyectos día a día.
+                    <br /> 
                         <Link to='/participate' className='text-center'> Sumate a nuestra lista de colaboradores</Link>
-                    </h5>
+                    </p>
                 </Col>
             </Row>
             <TextMain/>         
