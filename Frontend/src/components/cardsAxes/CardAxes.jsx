@@ -4,7 +4,6 @@ import './cardAxes.scss'
 
 export const CardAxes = ({ infoCardAxes }) => {
 
-
     return (
         <div className={`blog-card ${infoCardAxes.position} px-0 mx-auto`}>
             <div className="meta">
