@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes, useLocation } from "react-router-dom";
 
 // Shared Components
-import  {FooterPolis}  from "./components/shared/footer/FooterPolis";
+import { FooterPolis } from "./components/shared/footer/FooterPolis";
 import { NavbarMain } from "./components/shared/navbarMain/NavbarMain";
 // Pages
 import Home from "./pages/Home";
@@ -26,6 +26,21 @@ function App() {
   const { pathname } = location;
   const splitLocation = pathname.split("/");
 
+  let headersMainPages = [
+    {
+      title: "NOSOTROS",
+      description: "Conocé más sobre nosotros, nuestra misión y que hacemos.",
+    },
+    {
+      title: "NOVEDADES",
+      description: "Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame al sircoo.",
+    },
+    {
+      title: "PARTICIPÁ/COLABORÁ",
+      description: "Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame al sircoo.",
+    },
+
+]
   return (
     <div className="schema-page">
       <NavbarMain />
@@ -38,7 +53,7 @@ function App() {
           {/* pages */}
           <Route path="/" element={<Home />} />
 
-          <Route exact path="/aboutUs" element={<AboutUs />} />
+          <Route exact path="/aboutUs" element={<AboutUs/>} />
 
           <Route exact path="/novelties" element={<Novelties />} />
 

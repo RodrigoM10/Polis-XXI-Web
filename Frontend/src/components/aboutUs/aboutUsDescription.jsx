@@ -2,9 +2,6 @@ import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Col, Container, Row } from 'react-bootstrap';
-import HeaderPages from '../headerPages/HeaderPages';
-
-
 
 function AboutUsDescription() {
 
@@ -32,7 +29,6 @@ function AboutUsDescription() {
 
     return (
         <>
-            <HeaderPages />
             <Container>
                 {/* <h1 className='text-center my-5 title-axes-insti'>
                 NOSOTROS

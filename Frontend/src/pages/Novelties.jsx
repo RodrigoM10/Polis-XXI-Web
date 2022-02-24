@@ -1,9 +1,10 @@
 import React from 'react'
+import HeaderPages from '../components/headerPages/HeaderPages'
 
 function Novelties() {
     return (
         <div>
-            Novedades
+            <HeaderPages />
         </div>
     )
 }

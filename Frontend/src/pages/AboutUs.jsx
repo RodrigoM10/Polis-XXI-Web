@@ -10,6 +10,7 @@ import Saraceno from '../assets/AboutUs/Santiago-Saraceno.jpg'
 import Torrico from '../assets/AboutUs/Torrico.jpg'
 import CardUs from '../components/aboutUs/CardUs/CardUs'
 import AboutUsDescription from '../components/aboutUs/aboutUsDescription'
+import HeaderPages from '../components/headerPages/HeaderPages'
 
 function AboutUs() {
 
@@ -72,10 +73,9 @@ function AboutUs() {
         },
     ];
 
-
-
     return (
         <div>
+            <HeaderPages />
             <AboutUsDescription />
             <Container className='my-5'>
                 <CardUs infoCardsUs={infoCardsUs} />

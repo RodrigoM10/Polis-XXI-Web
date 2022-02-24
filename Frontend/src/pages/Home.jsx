@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { FaEnvira, FaPeopleCarry, FaUserGraduate } from 'react-icons/fa'
+import { FaEnvira } from 'react-icons/fa'
 import { GiThreeFriends } from 'react-icons/gi'
 import { AiFillBank } from 'react-icons/ai'
 import CardsMain from '../components/cardsMain/CardsMain'
