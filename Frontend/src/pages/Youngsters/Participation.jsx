@@ -1,12 +1,13 @@
 import React from "react";
-import Timeline from "../../components/timeLine/Timeline";
+
+import TimelineYoung from "../../components/timeline/TimelineYoung";
+
 
 const Participation = () => {
 
     return (
         <div>
-           {/* <Timeline/> */}
-           <Timeline />
+            <TimelineYoung/>
         </div> 
     )
 };
