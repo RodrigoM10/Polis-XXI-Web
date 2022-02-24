@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import { FaEnvira, FaPeopleCarry, FaUserGraduate } from 'react-icons/fa'
+import { GiThreeFriends } from 'react-icons/gi'
+import { AiFillBank } from 'react-icons/ai'
 import CardsMain from '../components/cardsMain/CardsMain'
 
 
@@ -9,7 +11,7 @@ function Home() {
         {
             id: 1,
             title: 'JÓVENES',
-            icon: <FaPeopleCarry />,
+            icon: <GiThreeFriends />,
             link: '/youngsters',
             background: 'polis-color-lightblue',
             width: 'medium',
@@ -18,7 +20,7 @@ function Home() {
         {
             id: 2,
             title: 'FORTALECIMIENTO INSTITUCIONAL',
-            icon: <FaUserGraduate />,
+            icon: <AiFillBank />,
             link: '/institutions',
             background: 'polis-color-violet',
             description: 'Conoce nuestra formacion institucional y academica',
