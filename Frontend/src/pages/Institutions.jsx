@@ -53,7 +53,7 @@ function Institutions() {
         if(!inView){ 
             animation.start({x:'-100vw'})
         }
-    },[inView])
+    },[animation, inView])
 
 
 

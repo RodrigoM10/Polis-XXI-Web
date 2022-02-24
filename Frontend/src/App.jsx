@@ -5,21 +5,19 @@ import { Route, Routes, useLocation } from "react-router-dom";
 
 // Shared Components
 import  {FooterPolis}  from "./components/shared/footer/FooterPolis";
-import { Footer } from "./components/shared/footer/Footer";
 import { NavbarMain } from "./components/shared/navbarMain/NavbarMain";
 // Pages
 import Home from "./pages/Home";
-import AboutUs from "./pages/Youngsters/AboutUs";
+import AboutUs from "./pages/AboutUs";
 import Novelties from "./pages/Novelties";
 import Participate from "./pages/Participate";
-import Youngsters from "./pages/Youngsters/Youngsters";
+import Youngsters from "./pages/Youngsters";
 import Institutions from "./pages/Institutions";
 import Environment from "./pages/Environment";
 import NoMatch from "./pages/NoMatch";
-import { Container } from "react-bootstrap";
 import { HeaderMain } from "./components/headerMain/HeaderMain";
 import { SidebarRedes } from "./components/sidebarRedes/SidebarRedes";
-import Participation from "./pages/Youngsters/Participation";
+import Participation from "./pages/Participation";
 
 
 
@@ -35,7 +33,7 @@ function App() {
         <HeaderMain />
       }
       <SidebarRedes />
-      <Container className="bg-container-main mb-3">
+      <div className="bg-container-main mb-3">
         <Routes >
           {/* pages */}
           <Route path="/" element={<Home />} />
@@ -57,7 +55,7 @@ function App() {
           <Route path="*" element={<NoMatch />} />
 
         </Routes>
-      </Container>
+      </div>
       <FooterPolis />
 
 

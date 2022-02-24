@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { CardsYoungsters } from '../../components/cardsAxes/CardsYoungsters'
+import { CardsYoungsters } from '../components/cardsAxes/CardsYoungsters'
 
 function Youngsters() {
 
