@@ -7,6 +7,9 @@
     width:200px;
     z-index: 1100;
 }
+.sticky-side-social-icons {
+    margin-top: 60px !important;
+}
 @media screen and (max-width: 762px) {
     .sticky-container{
         top: 420px;

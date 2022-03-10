@@ -1,8 +1,7 @@
 import React from 'react'
-import './sidebarRedes.css'
-import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaYoutubeSquare,FaTelegram,FaDiscord } from 'react-icons/fa'
-import { GrMail } from 'react-icons/gr'
 import { Link } from 'react-router-dom'
+import { FaInstagramSquare, FaLinkedin, FaTwitterSquare,FaTelegram,FaDiscord } from 'react-icons/fa'
+import './sidebarRedes.css'
 
 
 export const SidebarRedes = () => {
@@ -17,8 +16,8 @@ export const SidebarRedes = () => {
     }
 
     return (
-        <div class="sticky-container">
-        <ul class="sticky">
+        <div className="sticky-container">
+        <ul className="sticky sticky-side-social-icons">
             
             <li>
                 <FaTwitterSquare className="sidebarIcon" />
