@@ -9,31 +9,6 @@ import '../pagesStyle/Institutions.css';
 
 function Institutions() {
     const [modalShow, setModalShow] = React.useState(false);
-
-    // let infoAxesInstitutions = [
-    //     {
-    //         id: 1,
-    //         title: 'Transparencia y rendición de cuentas',
-    //         subtitle: '',
-    //         position: '',
-    //         text: 'Conocé nuestra historia, webinars, eventos y agenda.'
-    //     },
-    //     {
-    //         id: 2,
-    //         title: 'Observatorio legislativo',
-    //         subtitle: '',
-    //         position: 'alt',
-    //         text: 'Conocé nuestra historia, webinars, eventos y agenda.'
-    //     },
-    //     {
-    //         id: 3,
-    //         title: 'Observatorio vial ',
-    //         subtitle: '',
-    //         position: '',
-    //         text: 'Conocé nuestra historia, webinars, eventos y agenda.'
-    //     },
-
-    // ]
     
     const {ref, inView} = useInView();
     const animation = useAnimation();
