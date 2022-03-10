@@ -7,7 +7,7 @@ function Youngsters() {
     let infoAxesYoungsters = [
         {
             id: 1,
-            title: 'Nosotros',
+            title: 'NOSOTROS',
             subtitle: '',
             position: '',
             text: 'Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes',
@@ -15,7 +15,7 @@ function Youngsters() {
         },
         {
             id: 2,
-            title: 'Participación',
+            title: 'PARTICIPACIÓN',
             subtitle: '',
             position: 'alt',
             text: 'Conocé las capacitaciones que se llevaron a cabo',
@@ -23,7 +23,7 @@ function Youngsters() {
         },
         {
             id: 3,
-            title: 'Calendario Eventos',
+            title: 'CALENDARIO EVENTOS',
             subtitle: '',
             position: '',
             text: 'Calendario mensual donde se visualizarán los eventos del mes',
@@ -31,7 +31,7 @@ function Youngsters() {
         },
         {
             id: 4,
-            title: 'Sumate',
+            title: 'SUMATE',
             subtitle: '',
             position: 'alt',
             text: 'Completa el formulario asi te actualizamos con la ultima información de nuestro portal',

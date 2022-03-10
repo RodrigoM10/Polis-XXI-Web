@@ -11,7 +11,7 @@ export const HeaderMain = () => {
             {/* <TextMain /> */}
             <div className="d-none d-md-flex justify-content-center align-items-center px-2 text-center" >
                 <p className='text-main d-flex flex-column m-4  '>
-                    Somos una institución cuyo propósito es fortalecer acciones y lazos comunitarios, la integración, el desarrollo sustentable y el bienestar de la sociedad.
+                    Somxs una institución cuyo propósito es fortalecer acciones y lazos comunitarios, la integración, el desarrollo sustentable y el bienestar de la sociedad.
                     <br /> 
                     Para alcanzar dichos objetivos, nuestros equipos profesionales necesitan de la colaboración de nuestros socixs, colaboradores y suscriptores. Gracias a todos que con sus aportes nos permiten seguir trabajando y ampliando todos los proyectos día a día.
                     <Link to='/participate' className='text-center text-add'> Sumate a nuestra lista de colaboradores</Link>
