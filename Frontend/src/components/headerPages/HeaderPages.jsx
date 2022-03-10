@@ -11,7 +11,7 @@ const HeaderPages = () => {
     const splitLocation = pathname.split("/");
 
     return (
-        <div className="d-flex flex-column justify-content-start justify-content-lg-start align-items-start header-main header-pages-background">
+        <div className="mb-5 d-flex flex-column justify-content-start justify-content-lg-start align-items-start header-main header-pages-background">
             {splitLocation[1] === "aboutUs" &&
             <>
                  <h1 className='text-start my-5 title-header-pages'>NOSOTROS</h1>

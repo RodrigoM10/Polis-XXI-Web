@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
-import { useInView } from 'react-intersection-observer';
 import { Col, Container, Row } from 'react-bootstrap';
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 
 function AboutUsDescription() {
 
@@ -28,12 +28,8 @@ function AboutUsDescription() {
 
 
     return (
-        <>
-            <Container>
-                {/* <h1 className='text-center my-5 title-axes-insti'>
-                NOSOTROS
-            </h1> */}
-                <div >
+            <Container >
+                <div>
                     <motion.h3 className=' my-4 title-axes'
                         initial={{ x: '100vw' }}
                         animate={{ x: 0 }}
@@ -93,11 +89,7 @@ function AboutUsDescription() {
                         </motion.p>
                     </div>
                 </div>
-                {/* <CardsInstitutions
-                infoAxesInstitutions={infoAxesInstitutions}
-            /> */}
             </Container>
-        </>
     )
 };
 
