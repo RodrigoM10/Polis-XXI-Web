@@ -1,0 +1,22 @@
+.title-axes{
+    font-family: Montserrat, Helvetica, Times, serif;
+    text-shadow: rgb(0 0 0 / 10%) -2.44px 1.775px;
+    font-weight: 700;
+}
+.violet-1 {
+    color: #662581;
+    font-size: 50px !important;
+}
+.sky-1{
+    color: #00a9bc;
+    font-size: 50px !important;
+}
+.violet-2{
+    color: #662581;
+    font-size: 30px !important;
+}
+.sky-2 {
+    color: #00a9bc;
+    font-size: 27px !important;
+    font-weight: 600 !important;
+}

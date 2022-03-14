@@ -5,7 +5,7 @@ export const  AXES_INFO_YOUNGSTERS = [
         subtitle: '',
         position: '',
         text: 'Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes',
-        link:'/aboutUs'
+        link:'/youngsters/about'
     },
     {
         id: 2,
@@ -13,7 +13,8 @@ export const  AXES_INFO_YOUNGSTERS = [
         subtitle: '',
         position: 'alt',
         text: 'Conocé las capacitaciones que se llevaron a cabo',
-        link:'/participation' 
+        link:'/youngsters/participation'
+
     },
     {
         id: 3,
@@ -21,7 +22,7 @@ export const  AXES_INFO_YOUNGSTERS = [
         subtitle: '',
         position: '',
         text: 'Calendario mensual donde se visualizarán los eventos del mes',
-        link:'/events'
+        link:'/youngsters/events'
     },
     {
         id: 4,
@@ -29,6 +30,6 @@ export const  AXES_INFO_YOUNGSTERS = [
         subtitle: '',
         position: 'alt',
         text: 'Completa el formulario asi te actualizamos con la ultima información de nuestro portal',
-        link:'/joinus'
+        link:'/youngsters/joinus'
     },
 ]

@@ -1,14 +1,18 @@
 import React from "react"
 import icono_linkedin from "../../../assets/linkedin-icono.png"
 import { Link } from "react-router-dom";
+import Title from "../../title/Title";
 import './cardUs.css'
 
 const CardUs = ({ infoCardsUs }) => {
     return (
         <div>
-            <div className="text-center">
-                <h2 className="title-axes-insti ">Nuestro equipo</h2>
-            </div>
+            <hr />
+            <Title
+                type='violet-1'
+                placeholder='NUESTRO EQUIPO'
+                position='center'
+            />
             <div className="row row-cols-2 row-cols-md-5 justify-content-center align-items-center">
                 {infoCardsUs && (
                     infoCardsUs.map((card, i) => (

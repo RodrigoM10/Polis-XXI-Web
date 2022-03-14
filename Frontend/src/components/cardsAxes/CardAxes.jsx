@@ -1,7 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-bootstrap'
-import './cardAxes.scss'
 import {Link} from "react-router-dom"
+import './cardAxes.scss'
 
 export const CardAxes = ({ infoCardAxes }) => {
 

@@ -16,7 +16,7 @@ export const SidebarRedes = () => {
     }
 
     return (
-        <div className="sticky-container">
+        <div className="sticky-container d-none d-sm-inline">
         <ul className="sticky sticky-side-social-icons">
             
             <li>
