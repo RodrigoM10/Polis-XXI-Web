@@ -1,7 +1,5 @@
 import React from "react";
-
-import TimelineYoung from "../components/Timeline/TimelineYoung"
-
+import TimelineYoung from "../components/timeline/TimelineYoung"
 
 const Participation = () => {
 

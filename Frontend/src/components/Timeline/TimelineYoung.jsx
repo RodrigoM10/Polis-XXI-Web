@@ -3,7 +3,7 @@ import { IoIosSchool } from 'react-icons/io';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
-import "./Timeline.css"
+import "./timeline.css"
 
 const TimelineYoung = () => {
     let schoolIconStyles = { background: "#00a9bc" };
@@ -67,10 +67,6 @@ const TimelineYoung = () => {
 
   return (
     <div className="timeline-container">
-    <motion.h1 className="title" initial={{ x: '-100vw' }}
-      animate={{ x: 0 }}
-      transition={{ type: "spring", delay: 0.5 }}> WEBINARS</motion.h1>
-
     <VerticalTimeline>
       <motion.div
         initial={{ x: '100vw' }}
