@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Montserrat:700,400);
+
+.text-description{
+    font-family: Montserrat, Helvetica, Times, serif;
+    text-align: justify;
+    letter-spacing: 0.3mm;
+}
+
