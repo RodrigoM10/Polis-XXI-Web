@@ -16,7 +16,11 @@ const ItemAxes = ({infoItems}) => {
             className='col-md-6' 
         > 
             <li><p className='item-text'><strong>- </strong>{text1}</p></li>
+            {text2 ? 
             <li><p className='item-text'><strong>- </strong>{text2}</p></li>
+            :
+            <></>
+        }
         </ul> 
     </Row>
   )

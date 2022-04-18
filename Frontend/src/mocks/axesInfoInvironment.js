@@ -55,3 +55,45 @@ export const AXES_INFO_INVIRONMENT_ITEMS = [
         text2: 'Ciclos de talleres y simposios abiertos a la comunidad orientados a promover la seguridad vial, la movilidad sustentable y los hábitos saludables en el espacio público.'
     },
 ]
+
+export const AXES_INFO_YOUNG_ABOUT_ITEMS = [
+    {
+        id: 1,
+        title: 'Jovenes XXI ',
+        text1: 'Proyecto de formación, articulacón y acompañamiento de jóvenes en edad de terminalidad escolar en su transición y acceso al mercado laboral y el mundo de las becas de estudio. Fortalecimineto de políticas de empleo y formación profecional para jóvenes.'
+    },
+    {
+        id: 2,
+        title: 'Programas de resiliencia ambiental y desarrollo sustentable ',
+        text1: 'en partenariado con profecionales e instituciones especializadas.',
+    },
+    {
+        id: 3,
+        title: 'Proyectos culturales ',
+        text1: 'con fines socio-educativos.',
+    },
+    {
+        id: 4,
+        title: 'Observatorios legislativo y normativo ',
+        text1: 'sistematización de datos con caracter divulgativo y de planificación',
+    },
+    {
+        id: 4,
+        title: 'Fortalecimiento Institucional ',
+        text1: 'en Transparencia Activa y Rendición de cuentas.',
+    },
+]
+
+
+export const AXES_INFO_YOUNG_ABOUT_FINANCIAMIENTO_ITEMS = [
+    {
+        id: 1,
+        title: 'Auto-financiamiento, ',
+        text1: 'aportes mensuales colaborativos de socios/as y personas físicas interesadas en sostener el funcionamiento cotidiano de nuestra institución.'
+    },
+    {
+        id: 2,
+        title: 'Fondos provenientes de ejecución de proyectos, ',
+        text1: 'aquellas instituciones que hacen propias nuestras iniciativas, y traen consigo la capacidad económica de sostener los recursos físicos y humanos.',
+    },
+]

@@ -7,7 +7,7 @@ function Youngsters() {
 
     return (
         <Container >
-            <h2 className='text-center my-4 title-axes'>
+            <h2 className='text-center my-4 title-axes sky-1'>
                 JÓVENES
             </h2>
             <CardsYoungsters
