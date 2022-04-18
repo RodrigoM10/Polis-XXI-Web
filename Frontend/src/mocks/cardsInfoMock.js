@@ -1,6 +1,8 @@
 import { AiFillBank } from "react-icons/ai";
 import { FaEnvira } from "react-icons/fa";
 import { GiThreeFriends } from "react-icons/gi";
+import { IconEnvironment } from "../assets/iconEnvironment";
+
 
 export const CARDS_INFO = [
     {
@@ -25,7 +27,8 @@ export const CARDS_INFO = [
     {
         id: 3,
         title: 'AMBIENTE',
-        icon: <FaEnvira />,
+        // icon: <FaEnvira />,
+        icon: <IconEnvironment />,
         link: '/environment',
         background: 'polis-color-green',
         description: 'Nuestro entorno laboral',
