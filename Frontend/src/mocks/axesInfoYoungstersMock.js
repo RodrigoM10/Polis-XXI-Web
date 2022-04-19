@@ -10,6 +10,11 @@ export const AXES_INFO_YOUNGSTERS = [
     },
     position: "",
     text: "Te mostramos un poco mas de nuestra biografía y sobre cada uno de nuestros integrantes",
+    links: {
+      link_1: "/youngsters/about/#quehacemos",
+      link_2: "/youngsters/about/#rol",
+      link_3: "/youngsters/about/#financiamiento"
+    },
     link: "/youngsters/about",
     image:
       "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",

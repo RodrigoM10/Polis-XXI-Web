@@ -1,18 +1,21 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
+import { saveAs } from 'file-saver';
 import { AXES_INFO_YOUNG_ABOUT_FINANCIAMIENTO_ITEMS, AXES_INFO_YOUNG_ABOUT_ITEMS } from '../../mocks/axesInfoInvironment';
 import { INFO_CARDS_US } from '../../mocks/cardsInfoUsMock';
 import ItemAxes2 from '../itemAxes/ItemAxes2';
 import CardUs from '../aboutUs/CardUs/CardUs';
 import Title from '../title/Title';
+import ButtonPolis from '../button/ButtonPolis';
 import './description.css'
 
 
 
 export const AboutYoungDescription = () => {
+    
     const { ref, inView } = useInView();
     const animation = useAnimation();
 
@@ -32,12 +35,13 @@ export const AboutYoungDescription = () => {
             animation.start({ x: '-100vw' })
         }
     }, [animation, inView])
-    
+
+
     return (
 
         <Container >
-            
-            <div id='queHacemos'>
+
+            <div>
                 <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
@@ -62,10 +66,9 @@ export const AboutYoungDescription = () => {
                     Nuestro campo de acción se basa en la articulación de iniciativas con el sector público y sus instituciones. Como así también con los sectores productivos y de lasociedad civil que demuestran compromiso social y que comparten nuestros valores.
                 </motion.p>
             </div>
-            <div>
+            <div id='queHacemos'>
                 <div>
                     <motion.div
-                        
                         initial={{ x: '100vw' }}
                         animate={{ x: 0 }}
                         transition={{ type: "spring", delay: 0.5 }}
@@ -82,21 +85,22 @@ export const AboutYoungDescription = () => {
                         transition={{ delay: 0.5, duration: 1.5, stiffness: 5 }}
                     >
                         El equipo de Polis XXI se compone por jóvenes profesionales. Adoptamos una modalidad de trabajo orientada a reunir ideas y proyectos según ejes de acción y campo de aplicación. Sobre esta base, actualmente nos encontramos desarrollando proyectos en los siguientes ejes:
-                    <motion.div
-                        className='my-5'
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 1, duration: 1.5, stiffness: 5 }}
-                    >
-                        {AXES_INFO_YOUNG_ABOUT_ITEMS.map((info_items, i) => { return <ItemAxes2 infoItems={info_items} key={i} /> })}
-                    </motion.div>
+                        <motion.div
+                            className='my-5'
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 1, duration: 1.5, stiffness: 5 }}
+                        >
+                            {AXES_INFO_YOUNG_ABOUT_ITEMS.map((info_items, i) => { return <ItemAxes2 infoItems={info_items} key={i} /> })}
+                        </motion.div>
                     </motion.p>
                 </div>
-                <div ref={ref}>
+                <div id="rol" ref={ref}>
                     <motion.div
                         animate={animation}
                     >
                         <Title
+
                             type='grey-2'
                             placeholder='Nuestro rol'
                             position='start'
@@ -113,7 +117,7 @@ export const AboutYoungDescription = () => {
                         En tercer lugar, Polis XXI ofrece acompañamiento, evaluacion y asesoramiento permanente sobre los proyectos que se concreten como politicas y/o programas.
                     </motion.p>
                 </div>
-                <div ref={ref}>
+                <div id="financiamiento" ref={ref}>
                     <motion.div
                         animate={animation}
                     >
@@ -137,14 +141,17 @@ export const AboutYoungDescription = () => {
                         >
                             {AXES_INFO_YOUNG_ABOUT_FINANCIAMIENTO_ITEMS.map((info_items, i) => { return <ItemAxes2 infoItems={info_items} key={i} /> })}
                         </motion.div>
-                    <strong>
-                        Nuestra Asociación Civil invita a colaborar a aquellas personas e instituciones que quieran realizar un aporte económico en pos de sostener la labor de nuestros equipos en las acciones socio-comunitarias que desarrollamos como institución.
-                        <br />
-                        <Link to="/participate">Sumate a nuestra lista de colaboradores</Link>
-                    </strong>
+                        <strong>
+                            Nuestra Asociación Civil invita a colaborar a aquellas personas e instituciones que quieran realizar un aporte económico en pos de sostener la labor de nuestros equipos en las acciones socio-comunitarias que desarrollamos como institución.
+                            <br />
+                            <Link to="/participate">Sumate a nuestra lista de colaboradores</Link>
+                        </strong>
                     </motion.p>
                 </div>
             </div>
+            {/* <div>
+                  <a href="../assets/files/ProyectoJóvenesXXI-dic2020.pdf" download="ProyectoJóvenesXXI-dic2020.pdf">Proyecto Jóvenes XXI 2020</a>
+            </div> */}
             <Container className='my-5'>
                 <CardUs infoCardsUs={INFO_CARDS_US} />
             </Container>
