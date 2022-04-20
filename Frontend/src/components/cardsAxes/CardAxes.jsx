@@ -10,10 +10,10 @@ export const CardAxes = ({ infoCardAxes }) => {
                 <div className="photo" style={{ backgroundImage: `url(${infoCardAxes.image})` }}>
                 </div>
                 <ul className="details d-flex flex-column justify-content-center aling-items-center" >
-                    <li className='my-2 '><Link to={infoCardAxes.link}  className='text-decoration-none text-white'>{infoCardAxes.list.item_1}</Link></li>
-                    <li className='my-2 '><Link to='/youngsters/about' onClick={() => window.location.replace("/youngsters/about/#queHacemos")} className='text-decoration-none text-white'>{infoCardAxes.list.item_2}</Link></li>
-                    <li className='my-2 '><Link to={infoCardAxes.link}   onClick={() => window.location.replace("/youngsters/about/#rol")} className='text-decoration-none text-white'>{infoCardAxes.list.item_3}</Link></li>
-                    <li className='my-2 '><Link to={infoCardAxes.link} onClick={() => window.location.replace("/youngsters/about/#financiamiento")} className='text-decoration-none text-white'>{infoCardAxes.list.item_4}</Link></li>
+                    <li className='my-2 '><Link to={infoCardAxes.link} className='text-decoration-none text-white'>{infoCardAxes.list.item_1}</Link></li>
+                    <li className='my-2 '><Link to={infoCardAxes.link} onClick={() => window.location.replace(infoCardAxes.links.link_1)} className='text-decoration-none text-white'>{infoCardAxes.list.item_2}</Link></li>
+                    <li className='my-2 '><Link to={infoCardAxes.link} onClick={() => window.location.replace(infoCardAxes.links.link_2)} className='text-decoration-none text-white'>{infoCardAxes.list.item_3}</Link></li>
+                    <li className='my-2 '><Link to={infoCardAxes.link} onClick={() => window.location.replace(infoCardAxes.links.link_3)} className='text-decoration-none text-white'>{infoCardAxes.list.item_4}</Link></li>
                 </ul>
             </div>
             <div className="description">

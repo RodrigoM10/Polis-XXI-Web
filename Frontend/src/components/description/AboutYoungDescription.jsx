@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
-import { saveAs } from 'file-saver';
 import { AXES_INFO_YOUNG_ABOUT_FINANCIAMIENTO_ITEMS, AXES_INFO_YOUNG_ABOUT_ITEMS } from '../../mocks/axesInfoInvironment';
 import { INFO_CARDS_US } from '../../mocks/cardsInfoUsMock';
 import ItemAxes2 from '../itemAxes/ItemAxes2';
 import CardUs from '../aboutUs/CardUs/CardUs';
 import Title from '../title/Title';
-import ButtonPolis from '../button/ButtonPolis';
 import './description.css'
 
 

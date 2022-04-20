@@ -1,0 +1,50 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2) !important;
+
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.slider-item {
+  cursor: pointer;
+}
+.img_1 {
+  width: 18rem !important;
+  height: 10rem;
+}
+.img-modal{
+  width: 15rem;
+  height: 15rem;
+}
+.modal-body {
+
+  overflow-y: scroll !important;
+}
+.modal-dialog {
+  height: calc(100% - 60px);
+}
+.modal-content {
+  height: 60vh;
+}
+.modal-header {
+  height: 50px;
+}
+.model-footer {
+  height: 75px;
+}

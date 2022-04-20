@@ -19,6 +19,7 @@ import { HeaderMain } from "./components/headerMain/HeaderMain";
 import { SidebarRedes } from "./components/sidebarRedes/SidebarRedes";
 import Participation from "./pages/Participation";
 import { AboutYoungDescription } from "./components/description/AboutYoungDescription";
+import { ParticipationLayout } from "./components/youngsters/ParticipationLayout";
 
 
 
@@ -47,6 +48,8 @@ function App() {
 
           <Route exact path="/youngsters" element={<Youngsters />} />
           <Route exact path="/youngsters/about" element={<AboutYoungDescription />} />
+          <Route exact path="/youngsters/participation" element={<ParticipationLayout />} />
+
 
           <Route exact path="/institutions" element={<Institutions />} />
           
