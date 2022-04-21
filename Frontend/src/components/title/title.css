@@ -18,10 +18,16 @@
 .violet-3{
     color: #662581;
     font-size: 20px !important;
+    font-weight: 600 !important;
 }
 .sky-2 {
     color: #00a9bc;
     font-size: 27px !important;
+    font-weight: 600 !important;
+}
+.sky-3 {
+    color: #00a9bc;
+    font-size: 20px !important;
     font-weight: 600 !important;
 }
 .grey-2 {
