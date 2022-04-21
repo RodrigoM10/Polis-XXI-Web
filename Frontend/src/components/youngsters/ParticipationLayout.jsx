@@ -47,13 +47,13 @@ export const ParticipationLayout = () => {
         setEventModal(object)
         setFullscreen('md-down');
         setEvShow(true)
-      }
-      function openWebinarModal(eventId) {
+    }
+    function openWebinarModal(eventId) {
         const object = AXES_INFO_YOUNGSTERS_WEBINARS.find(obj => obj.id === eventId);
         setWebinarModal(object)
         setFullscreen('md-down');
         setWebShow(true)
-      }
+    }
 
     return (
         <Container>
@@ -106,7 +106,7 @@ export const ParticipationLayout = () => {
                                 className=" mt-5">
                                 <div className="mx-3">
                                     <Card
-                                       onClick={() => openEventModal(`${evento.id}`)} 
+                                        onClick={() => openEventModal(`${evento.id}`)}
                                         className="d-flex flex-column align-items-center slider-item"
                                     >
                                         <div className="mt-3">
@@ -134,7 +134,8 @@ export const ParticipationLayout = () => {
                 </div>
                 <EventModal lgShow={evShow} setLgShow={setEvShow} fullscreen={fullscreen} infoModal={eventModal} />
             </div>
-            <div className='my-5'>
+            <div className='my-5'
+                id="webinars">
                 <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
@@ -183,7 +184,7 @@ export const ParticipationLayout = () => {
                                 className=" mt-5">
                                 <div className="mx-3">
                                     <Card
-                                       onClick={() => openWebinarModal(`${webinar.id}`)} 
+                                        onClick={() => openWebinarModal(`${webinar.id}`)}
                                         className="d-flex flex-column align-items-center slider-item"
                                     >
                                         <div className="mt-3">

@@ -30,6 +30,11 @@ export const AXES_INFO_YOUNGSTERS = [
     },
     position: "alt",
     text: "Conocé las capacitaciones que se llevaron a cabo",
+    links: {
+      link_1: "/youngsters/participation/#webinars",
+      link_2: "",
+      link_3: "",
+    },
     link: "/youngsters/participation",
     image:
       "https://media.istockphoto.com/photos/young-people-at-home-with-mobile-phones-sitting-on-the-floor-picture-id1326505439?k=20&m=1326505439&s=612x612&w=0&h=2KB_p75RhUmp9__OFa9Sx6x8AQQFD1PI5JHOMz_zjD0=",
