@@ -25,14 +25,14 @@ export const AXES_INFO_YOUNGSTERS = [
     list: {
       item_1: "Eventos y seminarios",
       item_2: "Webinars",
-      item_3: "",
+      item_3: "Contact",
       item_4: "",
     },
     position: "alt",
     text: "Conocé las capacitaciones que se llevaron a cabo",
     links: {
       link_1: "/youngsters/participation/#webinars",
-      link_2: "",
+      link_2: "/youngsters/participation/#nextEvents",
       link_3: "",
     },
     link: "/youngsters/participation",

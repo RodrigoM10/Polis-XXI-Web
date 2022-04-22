@@ -12,6 +12,7 @@ import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import './stylesSwiper.css'
 import { WebinarModal } from './WebinarModal';
+import { ContactForm } from '../contactForm/ContactForm';
 
 SwiperCore.use([Pagination]);
 
@@ -211,6 +212,15 @@ export const ParticipationLayout = () => {
                     </Swiper>
                 </div>
                 <WebinarModal lgShow={webShow} setLgShow={setWebShow} fullscreen={fullscreen} infoModal={webinarModal} />
+            </div>
+            <hr />
+            <div className='my-5' id="nextEvents">
+                <Title
+                    type='violet-1'
+                    placeholder='Proximos eventos'
+                    position='center'
+                />
+                <ContactForm />
             </div>
 
         </Container>

@@ -1,0 +1,56 @@
+.form-login {
+    width: 80%;
+    margin: 2rem auto;
+    background-image: radial-gradient(
+            circle at 17% 77%,
+            rgba(17, 17, 17, 0.04) 0%,
+            rgba(17, 17, 17, 0.04) 50%,
+            rgba(197, 197, 197, 0.04) 50%,
+            rgba(197, 197, 197, 0.04) 100%
+        ),
+        radial-gradient(
+            circle at 26% 17%,
+            rgba(64, 64, 64, 0.04) 0%,
+            rgba(64, 64, 64, 0.04) 50%,
+            rgba(244, 244, 244, 0.04) 50%,
+            rgba(244, 244, 244, 0.04) 100%
+        ),
+        radial-gradient(
+            circle at 44% 60%,
+            rgba(177, 177, 177, 0.04) 0%,
+            rgba(177, 177, 177, 0.04) 50%,
+            rgba(187, 187, 187, 0.04) 50%,
+            rgba(187, 187, 187, 0.04) 100%
+        ),
+        linear-gradient(19deg, rgb(102, 37, 129), rgb(102, 37, 129));
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+.input-login {
+    margin: 1rem !important;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    color: white !important;
+
+}
+
+/* Mui classes */
+.MuiInputLabel-formControl {
+    padding: 1px 5px !important;
+    margin-left: 4px;
+    color: white !important;
+}
+.MuiInputBase-input {
+    padding: 1rem !important;
+    /* background-color: white !important; */
+    color: white !important;
+    border-radius: 5px 5px 0 0;
+    /* border: 2px solid #c1c1c1 !important; */
+}
+.MuiInput-underline:after {
+    border-bottom: 1px solid #00a9bc !important;
+}
+.MuiInput-underline:before {
+    border-bottom: 1px solid white !important;
+}

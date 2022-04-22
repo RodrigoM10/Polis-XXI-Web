@@ -1,4 +1,5 @@
 .btn-polis {
+    width: 100%;
     text-align: center;
     padding: 1px 6px;
     margin: 0 5px;
@@ -12,7 +13,7 @@
 }
 .btn-polis:hover {
     background-color: #00a9bc !important;
-    border: 2px solid #abdfa9 !important;
+    border: 2px solid white !important;
     color: white !important;
 }
 .btn-polis:active {
